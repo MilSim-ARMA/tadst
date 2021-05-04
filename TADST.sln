@@ -1,34 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.194
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A93B8FDA-057A-4848-88D9-C0BE1BDF2A10}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8EBB600F-ACDB-45F8-BC28-4F58732E2E67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TADST", "src\TADST\TADST.csproj", "{DF078EE9-283B-4BEC-9A8D-F48717007467}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB95DE55-C16F-412D-BA75-F0D1E61EBAED}"
-ProjectSection(SolutionItems) = preProject
-	.gitignore = .gitignore
-	LICENSE = LICENSE
-	README.md = README.md
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TADST", "src\TADST\TADST.csproj", "{11B67436-6BD2-467D-B038-6E799D6213A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x86 = Debug|x86
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DF078EE9-283B-4BEC-9A8D-F48717007467}.Debug|x86.ActiveCfg = Debug|x86
-		{DF078EE9-283B-4BEC-9A8D-F48717007467}.Debug|x86.Build.0 = Debug|x86
-		{DF078EE9-283B-4BEC-9A8D-F48717007467}.Release|x86.ActiveCfg = Release|x86
-		{DF078EE9-283B-4BEC-9A8D-F48717007467}.Release|x86.Build.0 = Release|x86
+		{11B67436-6BD2-467D-B038-6E799D6213A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B67436-6BD2-467D-B038-6E799D6213A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B67436-6BD2-467D-B038-6E799D6213A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B67436-6BD2-467D-B038-6E799D6213A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DF078EE9-283B-4BEC-9A8D-F48717007467} = {A93B8FDA-057A-4848-88D9-C0BE1BDF2A10}
+		{11B67436-6BD2-467D-B038-6E799D6213A0} = {A93B8FDA-057A-4848-88D9-C0BE1BDF2A10}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90FE5152-C158-4E2C-9989-590486C113E3}
 	EndGlobalSection
 EndGlobal
