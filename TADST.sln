@@ -1,7 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TADST", "TADST\TADST.csproj", "{DF078EE9-283B-4BEC-9A8D-F48717007467}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A93B8FDA-057A-4848-88D9-C0BE1BDF2A10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8EBB600F-ACDB-45F8-BC28-4F58732E2E67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TADST", "src\TADST\TADST.csproj", "{DF078EE9-283B-4BEC-9A8D-F48717007467}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB95DE55-C16F-412D-BA75-F0D1E61EBAED}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	LICENSE = LICENSE
+	README.md = README.md
+EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,11 +22,13 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DF078EE9-283B-4BEC-9A8D-F48717007467}.Debug|x86.ActiveCfg = Debug|x86
 		{DF078EE9-283B-4BEC-9A8D-F48717007467}.Debug|x86.Build.0 = Debug|x86
-		{DF078EE9-283B-4BEC-9A8D-F48717007467}.Debug|x86.Deploy.0 = Debug|x86
 		{DF078EE9-283B-4BEC-9A8D-F48717007467}.Release|x86.ActiveCfg = Release|x86
 		{DF078EE9-283B-4BEC-9A8D-F48717007467}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF078EE9-283B-4BEC-9A8D-F48717007467} = {A93B8FDA-057A-4848-88D9-C0BE1BDF2A10}
 	EndGlobalSection
 EndGlobal
