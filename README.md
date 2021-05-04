@@ -1,5 +1,9 @@
-# TADST
-Dedicated Server Launcher for Arma
+# MilSim.org: TADST
+We forked the original version of TADST by [@jymden](https://github.com/jymden/tadst) and made some improvements and changes.
 
-Community discussions about TADST here:
-https://forums.bohemia.net/forums/topic/101123-tophes-arma-dedicated-server-tool-tadst/
+### Improvements
+* .NET 5
+  
+
+## Community Discussions
+<https://forums.bohemia.net/forums/topic/101123-tophes-arma-dedicated-server-tool-tadst/>
